@@ -112,48 +112,48 @@
 					n++;
 				}
 			}
-		}
-		print ti, 															# 1
-			tarr[ti], 														# 2
-			(nT>0)?(sum_zT/nT):(-9999), 									# 3
-			(nT>0)?(sqrt((sum_zT2 - (sum_zT*sum_zT)/nT)/nT)):(-9999), 		# 4
-			min_zT, 														# 5
-			max_zT, 														# 6
-			(nM>0)?(sum_zM/nM):(-9999), 									# 7
-			(nM>0)?(sqrt((sum_zM2 - (sum_zM*sum_zM)/nM)/nM)):(-9999), 		# 8
-			min_zM, 														# 9
-			max_zM, 														#10
-			(nF>0)?(sum_zFt/nF):(-9999),									#11
+		}									# column number in output file:
+		print ti, 								# 1
+			tarr[ti], 							# 2
+			(nT>0)?(sum_zT/nT):(-9999), 					# 3
+			(nT>0)?(sqrt((sum_zT2 - (sum_zT*sum_zT)/nT)/nT)):(-9999), 	# 4
+			min_zT, 							# 5
+			max_zT, 							# 6
+			(nM>0)?(sum_zM/nM):(-9999), 					# 7
+			(nM>0)?(sqrt((sum_zM2 - (sum_zM*sum_zM)/nM)/nM)):(-9999), 	# 8
+			min_zM, 							# 9
+			max_zM, 							#10
+			(nF>0)?(sum_zFt/nF):(-9999),					#11
 			(nF>0)?(sqrt((sum_zFt2 - (sum_zFt*sum_zFt)/nF)/nF)):(-9999), 	#12
-			min_zFt, 														#13
-			max_zFt, 														#14
-			(nF>0)?(sum_zF/nF):(-9999), 									#15
-			(nF>0)?(sqrt((sum_zF2 - (sum_zF*sum_zF)/nF)/nF)):(-9999), 		#16
-			min_zF, 														#17
-			max_zF, 														#18
-			(nF>0)?(sum_zFM/nF):(-9999), 									#19
-			(nB>0)?(sum_zB/nB):(-9999), 									#20
-			(nB>0)?(sqrt((sum_zB2 - (sum_zB*sum_zB)/nB)/nB)):(-9999), 		#21
-			min_zB, 														#22
-			max_zB, 														#23
-			sum_hs/n, 														#24
-			sqrt((sum_hs2 - (sum_hs*sum_hs)/n)/n), 							#25
-			min_hs, 														#26
-			max_hs, 														#27
-			sum_hf/nF, 														#28
-			sqrt((sum_hf2 - (sum_hf*sum_hf)/nF)/nF), 						#29
-			min_hf, 														#30
-			max_hf, 														#31
-			sum_hi/n, 														#32
-			sqrt((sum_hi2 - (sum_hi*sum_hi)/n)/n), 							#33
-			min_hi, 														#34
-			max_hi, 														#35
-			nT, 															#36
-			nM, 															#37
-			nF, 															#38
-			nF5, 															#39
-			nF10, 															#40
-			nB, 															#41
-			n
+			min_zFt, 							#13
+			max_zFt, 							#14
+			(nF>0)?(sum_zF/nF):(-9999), 					#15
+			(nF>0)?(sqrt((sum_zF2 - (sum_zF*sum_zF)/nF)/nF)):(-9999), 	#16
+			min_zF, 							#17
+			max_zF, 							#18
+			(nF>0)?(sum_zFM/nF):(-9999), 					#19
+			(nB>0)?(sum_zB/nB):(-9999), 					#20
+			(nB>0)?(sqrt((sum_zB2 - (sum_zB*sum_zB)/nB)/nB)):(-9999), 	#21
+			min_zB, 							#22
+			max_zB, 							#23
+			sum_hs/n, 							#24
+			sqrt((sum_hs2 - (sum_hs*sum_hs)/n)/n), 				#25
+			min_hs, 							#26
+			max_hs, 							#27
+			sum_hf/nF, 							#28
+			sqrt((sum_hf2 - (sum_hf*sum_hf)/nF)/nF), 			#29
+			min_hf, 							#30
+			max_hf, 							#31
+			sum_hi/n, 							#32
+			sqrt((sum_hi2 - (sum_hi*sum_hi)/n)/n), 				#33
+			min_hi, 							#34
+			max_hi, 							#35
+			nT, 								#36
+			nM, 								#37
+			nF, 								#38
+			nF5, 								#39
+			nF10, 								#40
+			nB, 								#41
+			n								#42
 	}
 }
